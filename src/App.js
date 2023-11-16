@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <NavBar />
+        <header>
+          
+        </header>
+        <div className="video-container" alt="halo video">
+          <iframe width="813" height="610" src="https://www.youtube.com/embed/0jXTBAGv9ZQ" title="Halo Theme Song Original" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +23,6 @@ function App() {
         >
           Learn React
         </a>
-      </header>
     </div>
   );
 }
