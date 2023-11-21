@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.sourceheader {
+  background-color: #0b0c10; /* Dark background similar to the Halo theme */
+  padding: 1rem;
+  text-align: left;
+}
+
+.sourceheader a {
+  color: #66fcf1; /* Cyan color used in Halo's UI for links */
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.sourceheader a:hover {
+  color: #c5c6c7; /* Light grey color for hover effect */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

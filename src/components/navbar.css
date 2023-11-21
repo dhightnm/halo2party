@@ -1,0 +1,76 @@
+.navbar {
+    background-color: #0b0c10;
+    border-bottom: 3px solid #66fcf1;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar li {
+    padding: 8px 16px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #c5c6c7;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #66fcf1;
+  }
+
+  
+  
+  /* Media query for mobile screens */
+  @media (max-width: 600px) {
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .loginButton {
+    background-color: #0b0c10; /* Dark background, similar to the navbar */
+    color: #66fcf1; /* Halo-themed cyan color for text */
+    border: 2px solid #66fcf1; /* Halo-themed cyan border */
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    margin-left: auto;
+  }
+  
+  .loginButton:hover {
+    background-color: #66fcf1; /* Cyan background on hover */
+    color: #0b0c10; /* Dark text on hover */
+  }
+  
+  .loginButton:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #45a29e; /* A lighter cyan for focus */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .loginButton {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  
